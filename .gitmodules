@@ -1,0 +1,8 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/Durubhuru14/log-solve-fe.git
+	branch = main
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Durubhuru14/log-solve-be.git
+	branch = main
