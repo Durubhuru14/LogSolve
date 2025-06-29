@@ -1,8 +1,8 @@
 # LogSolve - Human-Style Log Solving, Automated
 
-<center style="background-color: #111111; border-radius: 0.5rem; padding: 0.5rem">
+<p align="center">
 <img src="./assets//logo.svg" style="width:250px;"/>
-</center>
+</p>
 
 ## What is it? 🤔
 
@@ -63,21 +63,21 @@ Now, what if I told you that you can skip all this manual work—finding charact
 
 So here's a way to automate it and make everything much easier using LogSolve ✅:
 
-<center>
+<p align="center">
 
 ![demo](./assets/demo.GIF)
 
-</center>
+</p>
 
 You just draw the equation, and you'll get a step-by-step solution—just like how a human would solve it 🤓 but without any log or antilog table!
 
 ## 🤳 Data Flow
 
-<center>
+<p align="center">
 
   ![data flow diagram](./assets/dataFlow.png)
 
-</center>
+</p>
 
 
 ## 🧰 Tech Stack
@@ -171,16 +171,6 @@ Then run:
 ```bash
 npm run dev
 ```
-
-## 🤝 Collaboration
-
-We welcome contributions, feedback, and ideas! If you'd like to collaborate:
-
-- 🐛 Found a bug? Open an [issue](https://github.com/Durubhuru14/LogSolve/issues)
-- ✨ Have a feature request or suggestion? Share it via issues or discussions
-- 📦 Want to contribute code? Fork the repo, create a feature branch, and open a pull request
-
-> Whether you're a student, hobbyist, or professional — all contributions are appreciated!
 
 ## 🐣 Author
 
