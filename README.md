@@ -1,8 +1,8 @@
 # LogSolve - Human-Style Log Solving, Automated
 
-<center style="background-color: #111111; border-radius: 0.5rem; padding: 0.5rem">
-<img src="./assets//logo.svg" style="width:250px;"/>
-</center>
+<p align="center">
+  <img src="./assets/logo.svg" width="250" alt="LogSolve logo"/>
+</p>
 
 ## What is it? 🤔
 
