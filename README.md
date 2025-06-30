@@ -1,7 +1,7 @@
 # LogSolve - Human-Style Log Solving, Automated
 
 <p align="center">
-<img src="./assets//logo.svg" style="width:250px;"/>
+<img src="./assets/logo.svg" style="width:250px;"/>
 </p>
 
 ## What is it? 🤔
@@ -75,40 +75,41 @@ You just draw the equation, and you'll get a step-by-step solution—just like h
 
 <p align="center">
 
-  ![data flow diagram](./assets/dataFlow.png)
+![data flow diagram](./assets/dataFlow.png)
 
 </p>
-
 
 ## 🧰 Tech Stack
 
 #### 🖥️ Frontend
 
 **Built with React 19 and modern UI tooling:**
-React + React DOM – Core UI library
-Vite – Fast development/build tool
-Tailwind CSS – Utility-first CSS framework
-React Router DOM (v7) – Client-side routing
-React Konva – Canvas drawing and freehand input
-Axios – HTTP requests
-React Icons – Icon library
-ESLint – Code linting and formatting
+
+- React + React DOM – Core UI library
+- Vite – Fast development/build tool
+- Tailwind CSS – Utility-first CSS framework
+- React Router DOM (v7) – Client-side routing
+- React Konva – Canvas drawing and freehand input
+- Axios – HTTP requests
+- React Icons – Icon library
+- ESLint – Code linting and formatting
 
 #### 🌐 Backend
 
 **Developed with Node.js (ESM) and Express:**
-Express 5 – Web framework
-Multer – File uploads (for sketches)
-@google/genai – Gemini API integration
-CORS – Cross-origin request handling
-dotenv – Environment variable management
-form-data, mime, node-fetch – API integration helpers
+
+- Express 5 – Web framework
+- Multer – File uploads (for sketches)
+- @google/genai – Gemini API integration
+- CORS – Cross-origin request handling
+- dotenv – Environment variable management
+- form-data, mime, node-fetch – API integration helpers
 
 #### 🧠 AI Model
 
-Model Used: Gemma 3 27B
-Provider: Accessed via the Google Gemini API using @google/genai
-Purpose: Processes drawn math expressions and returns human-style log/antilog-based step-by-step solutions
+- Model Used: Gemma 3 27B
+- Provider: Accessed via the Google Gemini API using @google/genai
+- Purpose: Processes drawn math expressions and returns human-style log/antilog-based step-by-step solutions
 
 ## 🗂️ Repository Structure
 
@@ -138,18 +139,24 @@ npm install
 ```
 
 Now create a .env file in the root of the backend folder. To get the API key:
+
 - Visit [Google Cloud Console](https://console.cloud.google.com) and create a project.
 - Then go to [Google AI Studio](https://aistudio.google.com/) and generate your Gemini API key.
 
 Add it to .env like so:
+
 ```env
 API_KEY="YOUR_API_KEY"
 ```
 
 Then run:
+
 ```bash
 npm run dev
 ```
+
+> Create a new terminal session and continue the setup for frontend (make sure you are in `LogSolve` folder)
+
 3. Setup frontend
 
 ```bash
@@ -162,7 +169,8 @@ Now create a .env file in the root of the frontend folder and add your backend s
 ```
 VITE_SERVER_URL="https://your-backend-url.com/"
 ```
-> Note: If you are running on server your own machine and not on any external localhost then no need to do this.
+
+> Note: If you are running on server your own local machine and not on any external server (like render) then no need to do this.
 
 **⚠️ Don't forget the trailing slash / at the end of the URL.**
 
