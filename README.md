@@ -33,7 +33,7 @@ Let’s solve a multiplication problem **manually** using **logarithm and antilo
 
 ##### 2. **Add the logarithms in bar format:**
 
-\(\bar{1}.6345\) + \(\bar{1}.5328\) = \(\bar{3}.1673\)
+$\bar{1}.6345$ + $\bar{1}.5328$ = $\bar{3}.1673$
 
 ---
 
